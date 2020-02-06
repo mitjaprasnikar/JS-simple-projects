@@ -1,0 +1,19 @@
+html {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.main {
+   text-align: center;
+}
+
+#clock {
+    width:80%;
+    margin: 0 auto;
+    font-size:150px;
+}
+
+#date {
+    width:80%;
+    margin: 0 auto;
+    font-size: 50px;
+}

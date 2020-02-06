@@ -1,0 +1,80 @@
+body {
+    background-color: burlywood;
+}
+label {
+    margin-top: 10px;
+}
+#form {
+   text-align: center;
+   width:400px;
+   background-color: cadetblue;
+   margin: auto;
+   border-radius: 30px;
+   
+}
+
+
+
+h1{
+    background-color: cornsilk;
+    margin:auto;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+h3{
+    display: none;
+}
+#billAM {
+    margin:10px;
+    text-align: right;
+    border-radius: 10px;
+    padding-right: 5px;
+
+}
+
+#people{
+    margin:10px;
+    text-align: right;
+    border-radius: 10px;
+    padding-right: 5px;
+}
+
+#radios {
+    display: inline-block;
+    width: 50%;
+    margin:0 auto;
+    
+    
+}
+
+#service {
+    float:left;
+}
+
+#button {
+    border-radius: 10px;
+    background-color: burlywood;
+    height: 30px;
+    
+}
+
+#button:hover {
+    background-color: cornsilk;
+}
+
+#total { 
+    font-size: 20px;
+    display: inline-block;
+    margin: 5px;
+    margin-bottom: 20px;
+    
+}
+
+#each {
+   display: none;
+   font-size:15px;
+
+}
