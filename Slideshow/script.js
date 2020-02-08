@@ -8,9 +8,9 @@ right = () => {
     currImg++;
     if(currImg > numPic) {
         currImg = 0;
-        slideshow.style.backgroundImage = `url("./${images[currImg]}")`;
+        slideshow.style.backgroundImage = `url("./Img/${images[currImg]}")`;
     } else {
-        slideshow.style.backgroundImage = `url("./${images[currImg]}")`;
+        slideshow.style.backgroundImage = `url("./Img/${images[currImg]}")`;
     }
 }
 
@@ -18,8 +18,8 @@ left = () => {
     currImg--;
     if(currImg < 0) {
         currImg = numPic;
-        slideshow.style.backgroundImage = `url("./${images[currImg]}")`;
+        slideshow.style.backgroundImage = `url("./Img/${images[currImg]}")`;
     } else {
-        slideshow.style.backgroundImage = `url("./${images[currImg]}")`;
+        slideshow.style.backgroundImage = `url("./Img/${images[currImg]}")`;
     }
 }
