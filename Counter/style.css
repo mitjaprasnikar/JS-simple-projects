@@ -1,0 +1,22 @@
+#main {
+    background-color: silver;
+    width:400px;
+    height: 400px;
+    margin: 50px auto;
+    border: 0.1rem solid var(--mainWhite);
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.9);
+  border-radius: 0.2rem;
+}
+
+#number {
+    position: absolute;
+    margin: 50px 150px;
+    display: block;
+    font-size: 100px;
+}
+
+button {
+    margin-top:200px;
+    margin-left: 50px;
+}
+    

@@ -20,7 +20,7 @@ calculateTip = () => {
     document.getElementById("total").innerHTML = total + " €";
     document.getElementById("tipam").style.display = "block"
 
-
+document.getElementByIds
     
     
 }
